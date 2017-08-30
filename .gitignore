@@ -6,6 +6,24 @@ __pycache__/
 # C extensions
 *.so
 
+
+# Ignore downloaded datasets
+embeddings/data/
+embeddings/text8.zip
+face_generation/data/ 
+.ipynb_checkpoints/ 
+*.pyc
+*.p 
+*.pkl
+*/.floyd* 
+*.mp3
+*.zip
+*/data 
+data
+checkpoints 
+image 
+
+
 # Distribution / packaging
 .Python
 env/
